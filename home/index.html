@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+        <nav class="navbar">
+
+          <a class="logo" href="index.html"><img src="../img/logo.png" alt="logotipo do website"></a>
+          <ul class="links">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="../sobre/sobre.html">Sobre o projeto</a>
+            </li>
+            <li>
+              <a href="../pitch/pitch.html">Vídeo Pitch</a>
+            </li>
+          </ul>
+
+        </nav>
+
+        <div class="main">
+
+          <div id="quiz-container">
+            <h1>Quiz de Sustentabilidade</h1>
+            <img src="../img/quiz.jpg" alt="">
+            <p id="question"></p>
+            <div id="options"></div>
+            <p id="score"></p>
+          </div>
+
+          <div class="dicas">
+            <h1>Hábitos sustentáveis para praticar no dia-a-dia</h1>
+            
+            <h2>Separe o lixo</h2>
+            <p>Uma das principais medidas para reduzir a degradação ambiental é reciclar o lixo que geramos diariamente. Por isso, os resíduos devem ser encaminhados ao destino correto. <br><br> O material orgânico (restos de comida) pode ser aproveitado no processo de compostagem. Assim, vira adubo para novas plantações. <br><br> Já o material seco (plástico, metais, vidro e papel) deve ser descartado. Em muitas cidades brasileiras, existem cooperativas que recolhem esse lixo e ganham dinheiro vendendo-o para usinas de reciclagem. <br><br> Preste atenção a itens como baterias, lâmpadas, equipamentos eletrônicos, cosméticos, medicamentos e óleo de cozinha. Eles são altamente poluentes! A melhor alternativa é levá-los a ecopontos específicos – como supermercados, farmácias ou unidades especializadas.</p>
+
+          <h2>Economize água</h2>
+            <p>Você sabia que um banho de 15 minutos pode gastar de 45 a 135 litros de água? A informação consta no site da Companhia de Saneamento Básico do Estado de São Paulo (Sabesp). <br><br> A solução para economizar é simples: diminua o tempo embaixo do chuveiro. Cinco minutos costumam ser suficientes para realizar a higiene pessoal. <br><br> Também vale fechar o registro sempre que possível. Na hora de se ensaboar, por exemplo, não precisa deixar a água correndo, né? <br><br> Faça o mesmo ao escovar os dentes ou lavar a louça. A torneira só deve permanecer aberta na hora de enxaguar. Desse modo, você colabora na preservação dos recursos naturais e ainda poupa uma boa grana ao fim do mês!</p>
+
+          <h2>Deixe o carro na garagem</h2>
+            <p>Economia sustentável também tem a ver com saúde. Prova disso está na nossa próxima dica: trocar o automóvel pela bicicleta. <br><br> Às vezes, por comodidade, usamos o carro para percorrer pequenas distâncias dentro do município. Esse trajeto poderia ser feito em cima da magrela. <br><br> Repare nas vantagens. Você:</p>
+
+            <ul>
+              <li>poupa combustível, o que é bom para o bolso e para o meio ambiente;</li>
+              <li>mantém o ar da cidade mais puro;</li>
+              <li>não perde tempo em engarrafamentos;</li>
+              <li>não gasta com estacionamento;</li>
+              <li>pratica atividade física, conquistando mais força e disposição no dia a dia.</li>
+            </ul>
+
+            <p>Com tantos pontos a favor da bike, fica difícil arranjar uma desculpa para ir de carro até a esquina, hein?</p>
+
+          <h2>Economize energia elétrica</h2>
+            <p>Quando o assunto é a conta de luz, qualquer detalhe pode trazer resultados imediatos. Primeiro, tire da tomada todos os eletrodomésticos que não estiverem em uso. Até mesmo a luzinha vermelha de standby consome eletricidade. <br><br> Depois, priorize a manutenção dos equipamentos. Verifique se a borracha da geladeira está vedando bem ou se a limpeza do ar-condicionado está em dia. Em ambos os casos, o mau funcionamento do aparelho demanda esforço extra do motor, o que eleva os custos de energia elétrica. <br><br> Por fim, opte por soluções mais econômicas. Lâmpadas de LED, embora custem mais caro, duram bastante e gastam menos luz. Ou seja: são ótimas para economizar dinheiro no longo prazo.</p>
+
+          <h2>Reutilize embalagens</h2>
+            <p>Você é daquelas pessoas que já guardaram pote de requeijão para utilizá-lo como copo? Parabéns: os hábitos sustentáveis fazem parte de sua rotina. <br><br> Essa não é apenas uma estratégia para quando a grana está curta. Reutilizar objetos colabora para que a gente consuma menos. Logo, o lixo que geramos em nossas casas também tende a se reduzir. <br><br> Embalagens de vidro são ótimas para armazenar grãos, doces e geleias. Basta lavá-las com água quente antes do uso. <br><br> Para as garrafas PET, uma sugestão é transformá-las em vasos de plantas. Corte o topo, faça uns furos na base e pronto: o que iria para o lixo vira berço para novas mudinhas.</p>
+
+        </div>
+
+        <div class="comentarios">
+          <h1>Compartilhe sustentabilidade</h1>
+
+          <form id="comentarios-form">
+            <p><label>Deixe abaixo uma dica ou sugestão de atitudes sustentáveis que você mantém no seu dia-a-dia, ela pode aparecer no próximo blog:</label></p>
+            <textarea id="texto" name="texto" rows="3" cols="100"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
