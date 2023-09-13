@@ -51,3 +51,46 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 3px solid #afafaf;
 }
+
+.apresentacao{
+    margin: 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    gap: 82px;
+}
+
+.apresentacao h3{
+    color: #45a049;
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.apresentacao-conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.titulo-apresentacao{
+    font-size: 40px;
+    color: #45a049;
+    margin-top: 2rem;
+}
+
+.apresentacao-conteudo-texto{
+    font-size: 20px;
+
+}
+
+.apresentacao p {
+    font-size: 20px;
+}
+
+.apresentacao ul {
+    font-size: 20px;
+}
