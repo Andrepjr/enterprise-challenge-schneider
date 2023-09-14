@@ -4,6 +4,8 @@ html {
     background-color: #fff;
 }
 
+/* header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -35,6 +37,8 @@ nav.navbar {
 .links a:hover {
     color: #03A64A;
 }
+
+/* conteúdo */
 
 .main {
     background-color: #fff;
@@ -85,7 +89,7 @@ nav.navbar {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 4rem 0;
 }
 
 .tools img {
@@ -109,6 +113,8 @@ nav.navbar {
 .text p {
     margin-left: 1rem;
 }
+
+/* rodapé */
 
 footer {
     background-color: #262626;
@@ -153,6 +159,8 @@ ul li {
 .redes-sociais i {
     margin-right: 2rem;
 }
+
+/* scroll-bar */
 
 body::-webkit-scrollbar {
     width: 0.8rem;

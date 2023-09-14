@@ -4,6 +4,8 @@ html {
     background-color: #fff;
 }
 
+/* header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -36,6 +38,8 @@ nav.navbar {
     color: #03A64A;
 }
 
+/* conteúdo */
+
 .main {
     background-color: #fff;
 }
@@ -46,6 +50,7 @@ nav.navbar {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 .video h1 {
@@ -54,6 +59,8 @@ nav.navbar {
     padding: 2rem 0 0.5rem;
     font-size: 2rem;
 }
+
+/* rodapé */
 
 footer {
     background-color: #262626;
@@ -98,6 +105,8 @@ ul li {
 .redes-sociais i {
     margin-right: 2rem;
 }
+
+/* scroll-bar */
 
 body::-webkit-scrollbar {
     width: 0.8rem;
