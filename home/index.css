@@ -4,19 +4,21 @@ html {
     background-color: #fff;
 }
 
-.navbar {
-    background-color: #afafaf;
+header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo {
-    padding: 1rem;
+nav.navbar {
+    display: flex;
+    padding: 0;
 }
 
 .links {
     list-style: none;
     margin: 0;
-    padding: 0 0 0.5rem;
+    padding: 0;
 }
 
 .links li {
@@ -26,7 +28,7 @@ html {
 
 .links a {
     text-decoration: none;
-    color: #222;
+    color: #333232;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -99,6 +101,41 @@ button:hover {
 .comentarios {
     margin: 5rem;
     width: 60%;
+}
+
+footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para as colunas */
+.paginas, .redes-sociais {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* Estilos para as listas de links e ícones */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para os ícones das redes sociais */
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 body::-webkit-scrollbar {
