@@ -126,16 +126,3 @@ ul li {
 .apresentacao ul {
     font-size: 20px;
 }
-
-body::-webkit-scrollbar {
-    width: 0.8rem;
-}
-
-body::-webkit-scrollbar-track {
-    background: #262626;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color:#38A654;
-    border: 3px solid #38A654;
-}
