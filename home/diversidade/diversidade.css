@@ -55,10 +55,10 @@ body::-webkit-scrollbar-thumb {
 .apresentacao{
     margin: 2% 10%;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
     background-color:white;
-    gap: 82px;
+    gap: 62px;
 }
 
 .apresentacao h3{
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .apresentacao-conteudo{
-    width: 615px;
+    width: 685px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -94,3 +94,4 @@ body::-webkit-scrollbar-thumb {
 .apresentacao ul {
     font-size: 20px;
 }
+
