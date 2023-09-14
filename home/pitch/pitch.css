@@ -55,16 +55,59 @@ nav.navbar {
     font-size: 2rem;
 }
 
+footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paginas, .redes-sociais {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.paginas a, .redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+}
+.paginas ul {
+    padding: 0;
+    margin-left: 4rem;
+}
+
+.redes-sociais img {
+    margin: 1.5rem 0 3.5rem 0;
+}
+
+.redes-sociais ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais i {
+    margin-right: 2rem;
+}
+
 body::-webkit-scrollbar {
     width: 0.8rem;
 }
 
 body::-webkit-scrollbar-track {
-    background: #afafaf;
+    background: #262626;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color:#4CAF50;
-    border-radius: 20px;
-    border: 3px solid #afafaf;
+    background-color:#38A654;
+    border: 3px solid #38A654;
 }

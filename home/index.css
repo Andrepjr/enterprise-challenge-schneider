@@ -59,7 +59,7 @@ nav.navbar {
     margin: 1rem 0.5rem;
     padding: 1rem 1rem;
     font-size: 1rem;
-    background-color: #4CAF50;
+    background-color: #38A654;
     color: white;
     border: none;
     cursor: pointer;
@@ -85,7 +85,7 @@ button:hover {
 
 .dicas h1 {
     text-align: center;
-    margin: 1rem 0 2rem 0;
+    margin: 4rem 0 2rem 0;
     color: #222;
 }
 
@@ -103,21 +103,28 @@ button:hover {
     width: 60%;
 }
 
+.comentarios input {
+    padding: 0.4rem;
+    background-color: #38A654;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
 footer {
     background-color: #262626;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-/* Estilos para as colunas */
 .paginas, .redes-sociais {
-    flex: 1;
-    padding: 0 20px;
+    padding: 0;
 }
 
-/* Estilos para as listas de links e ícones */
 ul {
     list-style: none;
 }
@@ -126,16 +133,27 @@ ul li {
     margin-bottom: 10px;
 }
 
-a {
+.paginas a, .redes-sociais a {
     color: #fff;
     text-decoration: none;
 }
+.paginas ul {
+    padding: 0;
+    margin-left: 4rem;
+}
 
-/* Estilos para os ícones das redes sociais */
 .redes-sociais img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    margin: 1.5rem 0 3.5rem 0;
+}
+
+.redes-sociais ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais i {
+    margin-right: 2rem;
 }
 
 body::-webkit-scrollbar {
@@ -143,11 +161,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #afafaf;
+    background: #262626;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color:#4CAF50;
-    border-radius: 20px;
-    border: 3px solid #afafaf;
+    background-color:#38A654;
+    border: 3px solid #38A654;
 }
