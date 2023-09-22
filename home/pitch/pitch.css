@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-html {
-    background-color: #fff;
+:root {
+    --branco: #fff;
+    --verde-claro: #43D95A;
+    --verde-escuro: #38A654;
+    --cinza-claro: #333232;
+    --cinza-escuro: #262626;
 }
 
 /* header */
@@ -30,18 +34,18 @@ nav.navbar {
 
 .links a {
     text-decoration: none;
-    color: #333232;
+    color: var(--cinza-claro);
     font-family: 'Roboto', sans-serif;
 }
 
 .links a:hover {
-    color: #03A64A;
+    color: var(--verde-claro);
 }
 
 /* conteúdo */
 
 .main {
-    background-color: #fff;
+    background-color: var(--branco);
 }
 
 .video {
@@ -55,8 +59,8 @@ nav.navbar {
 
 .video h1 {
     font-family: 'Roboto', sans-serif;
-    color: #222;
-    padding: 2rem 0 0.5rem;
+    color: var(--verde-escuro);
+    padding: 1rem 0 2rem;
     font-size: 2rem;
 }
 

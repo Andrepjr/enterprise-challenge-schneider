@@ -1,16 +1,16 @@
 const quizData = [
     {
-      question: 'Qual destas opções é uma religião de origem brasileira',
+      question: 'Qual destas opções é uma religião de origem brasileira?',
       options: ['Umbanda', 'Catolicismo', 'Espiritismo', 'Candomblé'],
       answer: 'Umbanda',
     },
     {
-      question: 'Qual o Estado com a maior concentração de indigenas no Brasil ?',
+      question: 'Qual o estado com a maior concentração de indígenas no Brasil?',
       options: ['São Paulo', 'Bahia', 'Rio de Janeiro', 'Amazonas'],
       answer: 'Amazonas',
     },
     {
-      question: 'Qual a cidade com a melhor acessibilidade urbana no Brasil ?',
+      question: 'Qual a cidade com a melhor acessibilidade urbana no Brasil?',
       options: [
         'Curitiba',
         'São Paulo',
@@ -20,7 +20,7 @@ const quizData = [
       answer: 'São Paulo',
     },
     {
-      question: 'Quando é comemorado o dia do Orgulho LGBT ?',
+      question: 'Quando é comemorado o Dia Internacional do Orgulho LGBT?',
       options: [
         '30 de novembro',
         '28 de junho',
@@ -30,8 +30,8 @@ const quizData = [
       answer: '28 de junho',
     },
     {
-      question: 'Quem assinou a lei Áurea, que aboliu a escravidão no Brasil ?',
-      options: ['Dom Pedro I', 'Zumbi dos Palmares', 'Princesa Isabel', 'Dom Joao VI'],
+      question: 'Quem assinou a Lei Áurea, que determinou a abolição da escravidão no Brasil?',
+      options: ['Dom Pedro I', 'Zumbi dos Palmares', 'Princesa Isabel', 'Dom João VI'],
       answer: 'Princesa Isabel',
     },
   ];
@@ -115,7 +115,7 @@ const quizData = [
     submitButton.style.display = 'none';
     retryButton.style.display = 'inline-block';
     showAnswerButton.style.display = 'inline-block';
-    resultContainer.innerHTML = `Você acertou ${score} de ${quizData.length}!`;
+    resultContainer.innerHTML = `Você acertou ${score} de ${quizData.length} questões!`;
   }
   
   function retryQuiz() {
